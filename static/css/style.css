@@ -1,0 +1,38 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.dashboard-title {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.metric-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-3px);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #374151;
+}
+
+.custom-table th {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.export-card {
+    border-radius: 15px;
+}
